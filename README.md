@@ -1,22 +1,21 @@
-# ng-smartBanner
+## ng-smartBanner
 
-Ng-smartBanner is an awesome and sexy directive for add smartBanner for only one store  into your Angular 1.2+ app.
+*Ng-smartBanner is an awesome and sexy directive for add smartBanner for only one store  into your Angular 1.2+ app.*
 
-## Quick Start
-+ Include the required libraries
+<br/>
+>Html code Loader
 
->
 ``` html
 
 <link href="ng-smartBanner.css" rel="stylesheet" />
 
 <script src="//angular/angular.min.js"></script>
 <script src="//ng-smartBanner.js"></script>
+
 ```
+<br/>
+> Angular configuration
 
-+ Inject the `fianet.smartBanner` module into your app
-
->
 ``` javascript
 angular.module('myApp', ['fianet.smartBanner'])
         .config(function(BannerOptionsProvider){
@@ -25,12 +24,10 @@ angular.module('myApp', ['fianet.smartBanner'])
                 author: "toto gro", // What the author of the app should be in the banner (defaults to <meta name="author"> or hostname)
                 price: '1 milion de dollar', // Price of the app
             })};
-`
+```
 
-``
-
-
-configure provider :
+<br/>
+>Configure provider options :
 
     title: '', // What the title of the app should be in the banner (required)
     author: '', // What the author of the app should be in the banner (required)
@@ -42,12 +39,15 @@ configure provider :
     storageName:'bannerSave', //Define key Value save in the localStorage.
     daysHidden: 15, // Duration in day to hide the banner after being closed (0 = always show banner)
     daysReminder: 90 // Duration in day to hide the banner after "VIEW" is clicked *separate from when the close button is clicked* (0 = always show banner)
->
-```
+
+<br/>
+>markup directive
+
+``` html
 <fia-smart-banner></fia-smart-banner>
+
 ```
+<br/>
+> Example
 
-## Example
-An example folder is available to help you to start : testHtml .
-
-
+An example is available to help you to start in folder : testHtml.
