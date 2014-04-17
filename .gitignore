@@ -1,0 +1,44 @@
+dist
+.tmp
+.sass-cache
+.idea
+*.iml
+.DS_Store
+node_modules
+npm-debug.log
+*.orig
+.classpath
+.project
+.settings
+bin
+build
+gen
+out
+local.properties
+build
+.gradle
+libs
+project.properties
+*.xcuserdatad
+docs
+ios/www/src
+android/app/assets/www
+webapp/test/reports
+
+## Bower ##
+components
+bower_components
+
+## Xcode ##
+*.xcodeproj
+!*.xcodeproj/project.pbxproj
+!*.xcworkspace/contents.xcworkspacedata
+
+## Protractor ##
+xmloutput*.xml
+
+## Sublime Text ##
+.sublime*
+
+## node ##
+node_modules
