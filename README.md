@@ -1,6 +1,7 @@
 ## ng-smartBanner
 
 *Ng-smartBanner is an awesome and sexy directive for add smartBanner for only one store  into your Angular 1.2+ app.*
+Based on jquery.smartbanner  https://github.com/jasny/jquery.smartbanner/blob/master/jquery.smartbanner.js
 
 <br/>
 >Html code Loader
@@ -17,7 +18,7 @@
 > Angular configuration
 
 ``` javascript
-angular.module('myApp', ['fianet.smartBanner'])
+angular.module('myApp', ['ng-smartBanner'])
         .config(function(BannerOptionsProvider){
             BannerOptionsProvider.setBannerOptions({
                 title: 'toto',
@@ -44,7 +45,7 @@ angular.module('myApp', ['fianet.smartBanner'])
 >markup directive
 
 ``` html
-<fia-smart-banner></fia-smart-banner>
+<smart-banner></smart-banner>
 
 ```
 <br/>

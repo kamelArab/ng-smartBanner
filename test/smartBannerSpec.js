@@ -2,7 +2,7 @@ describe('Unit : Test ng-smartBanner', function(){
     var elm, scope, app, theConfigProvider;
        beforeEach( module('myApp'))
         beforeEach(inject(function($rootScope, $compile) {
-        elm = angular.element('<fia-smart-banner></fia-smart-banner>');
+        elm = angular.element('<smart-banner></smart-banner>');
         scope = $rootScope;
         $compile(elm)(scope);
         scope.$digest();

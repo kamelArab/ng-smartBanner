@@ -1,7 +1,7 @@
 
 
 
-var myAppModule = angular.module('myApp', ['fianet.smartBanner'])
+var myAppModule = angular.module('myApp', ['ng-smartBanner'])
     .config(function(BannerOptionsProvider){
         BannerOptionsProvider.setBannerOptions(
         {

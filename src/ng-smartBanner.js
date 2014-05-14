@@ -1,5 +1,13 @@
 
-angular.module('fianet.smartBanner',[])
+
+/*!
+ * Angular Smart Banner
+ * Author : Kamel Arab
+ * License: MIT
+ * Based on 'jQuery Smart Web App Banner' by Kurt Zenisek @ kzeni.com
+ * and fork to  jquery.smartbanner  https://github.com/jasny/jquery.smartbanner/blob/master/jquery.smartbanner.js
+ */
+angular.module('ng-smartBanner',[])
     .provider("BannerOptions", function(){
         this.bannerOptions={};
         this.$get = function(){
@@ -27,7 +35,7 @@ angular.module('fianet.smartBanner',[])
         };
 
     })
-    .directive('fiaSmartBanner',
+    .directive('smartBanner',
     function($compile, $document, BannerOptions) {
         function link(scope, element) {
 

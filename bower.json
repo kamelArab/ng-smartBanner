@@ -1,7 +1,7 @@
 {
   "name": "ng-smartBanner",
   "version": "0.0.0",
-  "authors": ["Fia-net"],
+  "authors": ["Kamel Arab"],
   "description": "Add smartBanner in angular",
   "private": true,
   "dependencies": {
